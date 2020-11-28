@@ -1,0 +1,31 @@
+
+/* reglas servicios */
+
+.servicios{
+    width: 1200px;
+    display: flex;
+   
+    
+    
+}
+
+.servicios__contenedor{
+    width: 400px; 
+    border: 2px solid rgb(3, 152, 158);
+    text-align: center;
+    padding: 15px;
+   
+
+}
+
+.servicios__imagen{
+    width: 300px;    
+    border: 2px solid rgb(3, 152, 158);
+    padding: 5px;
+}
+
+.servicios-text{
+    color: rgb(3, 152, 158);
+    text-align: justify;
+}
+/* end reglas servicios */
