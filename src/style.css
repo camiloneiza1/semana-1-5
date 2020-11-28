@@ -1,0 +1,69 @@
+
+/* Todo lo relacionado con el Footer */
+
+/* Atributos generales para el footer */
+footer {
+    /* width: 1200px;
+    margin: auto; */
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    background-color: rgb(3, 152, 158);
+    color: aliceblue;
+    padding: 2%;
+}
+
+/* Linea separadora */
+.separatorf {
+    align-items: center;
+    margin: 0 2% 0 2%;
+    
+}
+
+/* Atributos de los Div's */
+.footcontainer{
+    width: 50%;
+    padding: auto;
+}
+/* Atributos de sus listas */
+.listfooter {
+    list-style: none;
+    font-size: 18px;
+    padding: 2px;
+}
+
+/* Enlaces de Enviar correo */
+.listfooter a {
+    text-decoration: none;
+    color: lightblue;
+    border-bottom: 1px solid lightblue;
+}
+
+/* Títulos */
+.foottitle {
+    margin: 0px;
+    color: lightblue;
+    font-size: 30px;
+}
+
+/* Enlaces en los párrafos */
+p a {
+    
+    text-decoration: none;
+    color: lightblue;
+    border-bottom: 1px solid lightblue;
+    
+}
+
+/* Enlace de más información */
+.Masinfo {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover {
+    padding: 2px;
+    background-color: #036969;
+    color: aliceblue;
+}
+/* Fin estilos footer */
