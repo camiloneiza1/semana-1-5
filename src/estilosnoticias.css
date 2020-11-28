@@ -1,0 +1,39 @@
+#news{
+    background-color:#3f20c5 ;
+  
+}
+
+.subseccion{
+    background-color:#c5202e ;
+  
+}
+.seccion_news{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 10px;
+}
+.noticia {
+    background-color:#BAD0CC ;
+}
+.imagen {
+   background-color:#C6C980;
+   width: 550x;
+   text-align: center;
+   
+}
+h2 {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.parrafo_noticias {
+
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+img[src]{
+    border:1px solid black;
+    width: 500px;
+    margin top: 200px;
+    
+    
+}
