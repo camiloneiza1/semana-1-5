@@ -1,0 +1,68 @@
+#news{
+    background-color:#03989E ;
+    
+  
+}
+
+.subseccion{
+   display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+
+
+.Seccion_news{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+
+}
+
+.noticia {
+    background-color:white ;
+}
+
+.texto_noticias{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+.imagen {
+   background-color:white;
+   /* width: 10x;
+   height: 10; */
+   text-align: center;
+   margin-top: 15px;
+}
+h2 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+}
+.parrafo_noticias {
+
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.link{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:right;
+}
+img[src]{
+    border:3px solid #03989E;
+    width: 500px;
+    
+    }
+
+time[datetime]{
+    font-size: 15px;
+    font-style:italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer
+{
+    font-size: 15px;
+    font-style:italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
