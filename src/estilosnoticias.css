@@ -58,7 +58,8 @@ time[datetime]{
     font-style:italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-footer
+
+.imagen .footer
 {
     font-size: 15px;
     font-style:italic;
