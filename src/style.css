@@ -1,0 +1,284 @@
+
+/* reglas servicios */
+
+.servicios{
+    width: 1200px;
+    display: flex;
+   
+    
+    
+}
+
+.servicios__contenedor{
+    width: 400px; 
+    border: 2px solid rgb(3, 152, 158);
+    text-align: center;
+    padding: 15px;
+   
+
+}
+
+.servicios__imagen{
+    width: 300px;    
+    border: 2px solid rgb(3, 152, 158);
+    padding: 5px;
+}
+
+.servicios-text{
+    color: rgb(3, 152, 158);
+    text-align: justify;
+}
+/* end reglas servicios */
+/* Todo lo relacionado con el Navbar */
+
+
+/* ------------------------------ REGLAS generales ------------------------------ */
+
+body {
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.site-title {
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1200px;
+    background-color: transparent;
+    height: auto;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin: 0px auto;
+    padding: 0 auto;
+}
+
+
+/* ------------------------------ REGLAS contenedores ------------------------------ */
+
+.header {
+    background-color: white;
+    height: auto;
+}
+
+.container-menu {
+    height: 60px;
+    background-color: #03989E;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+.container-logo {
+    width: 100%;
+    height: inherit;
+    background-color: azure;
+    text-align: center;
+}
+
+.site-title {
+    margin: 0;
+    padding: 0.36em 0;
+}
+
+
+/* ------------------------------ REGLAS banner ------------------------------ */
+
+.container-imagen {
+    background-image: url('./bg.png');
+    height: 240px;
+    /* margin-bottom: 20px; */
+}
+
+.image-text {
+    margin: 0;
+    padding: 9% 0;
+    text-align: center;
+}
+
+
+/* ------------------------------ REGLAS navbar ------------------------------ */
+
+.nav-list {
+    padding: 0.25em 0;
+    list-style-type: none;
+    text-align: end;
+    width: 100%
+}
+
+.nav-element {
+    padding: 1em 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #3e3e3e;
+}
+
+.nav-element:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* ------------------------------ REGLAS menu ------------------------------ */
+
+.main-menu {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item {
+    line-height: 3;
+}
+
+.main-menu__link {
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-menu__link:hover {
+    text-decoration: unone;
+    font-weight: bold;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+
+/* Todo lo relacionado con el Footer */
+
+
+/* Atributos generales para el footer */
+
+footer {
+    /* width: 1200px;
+    margin: auto; */
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    background-color: rgb(3, 152, 158);
+    color: aliceblue;
+    padding: 2%;
+}
+
+
+/* Linea separadora */
+
+.separatorf {
+    align-items: center;
+    margin: 0 2% 0 2%;
+}
+
+
+/* Atributos de los Div's */
+
+.footcontainer {
+    width: 50%;
+    padding: auto;
+}
+
+
+/* Atributos de sus listas */
+
+.listfooter {
+    list-style: none;
+    font-size: 18px;
+    padding: 2px;
+}
+
+
+/* Enlaces de Enviar correo */
+
+.listfooter a {
+    text-decoration: none;
+    color: lightblue;
+    border-bottom: 1px solid lightblue;
+}
+
+
+/* Títulos */
+
+.foottitle {
+    margin: 0px;
+    color: lightblue;
+    font-size: 30px;
+}
+
+
+/* Enlaces en los párrafos */
+
+p a {
+    text-decoration: none;
+    color: lightblue;
+    border-bottom: 1px solid lightblue;
+}
+
+
+/* Enlace de más información */
+
+.Masinfo {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover {
+    padding: 2px;
+    background-color: #036969;
+    color: aliceblue;
+}
+
+
+/* Fin estilos footer */
+
+
+/* Estilos team */
+
+.miembro {
+    width: 19.5%;
+    padding-top: 15px;
+    min-height: 320px;
+    margin: 2px;
+    border: solid #036969 1px;
+    position: relative;
+    float: left;
+}
+
+.f-miembro {
+    width: 120px;
+    height: 140px;
+    border-radius: 50%;
+    border: solid #036969 ;
+    
+}
+
+.miembro .foto {
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.miembro .title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.miembro .title b {
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+}
+
+.miembro p {
+    text-align: center;
+}

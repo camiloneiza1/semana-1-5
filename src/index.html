@@ -4,11 +4,331 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilosnoticias.css">
     <title>Mi primera pagina web</title>
 </head>
 
+
 <body>
 
+    <!-- Inicio del Navbar -->
+    <div class="container">
+        <div class="header">
+            <div class="container-menu">
+                <div class="container-logo">
+                    <h1 class="site-title">Workshop 1</h1>
+                </div>
+                <nav class="nav-list">
+                    <ul class="main-menu">
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">Inicio</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">Servicios</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">Noticias</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">Equipo</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container-imagen">
+                <h2 class="image-text"></h2>
+            </div>
+        </div>
+
+        <!-- servicios -->
+        <section id="services" class="servicios">
+
+            <div class="servicios__contenedor">
+                <img src="./seccion1.png" alt="Sección 1" class="servicios__imagen">
+                <h2 class="servicios-text">Gestión Educativa</h2>
+                <p class="servicios-text">En la plataforma se registra el flujo de información de evaluación y
+                    administración académica en una Institución Educativa, teniendo en cuenta el tratamiento de logros,
+                    fortalezas, dificultades y recomendaciones de acuerdo con los requerimientos del Ministerio de
+                    Educación
+                    Nacional.</p>
+                <a href="#">Conozca más </a><span style='font-size:40px;'>&#9756;</span>
+            </div>
+
+            <div class="servicios__contenedor">
+                <img src="./seccion2.png" alt="Sección 2" class="servicios__imagen">
+                <h2 class="servicios-text">Elección de Personero y Contralor Estudiantil</h2>
+                <p class="servicios-text">Permite la autenticación por correo y registrar el voto. Al final,
+                    inmediatamente
+                    conoceran los elegidos por los estudiantes</p>
+                <a href="#">Conozca más </a><span style='font-size:40px;'>&#9756;</span>
+            </div>
+
+            <div class="servicios__contenedor">
+                <img src="./seccion3.png" alt="Sección 3" class="servicios__imagen">
+                <h2 class="servicios-text">Gestión Deportiva</h2>
+                <p class="servicios-text">En la plataforma Deportiva puede permanecer informado acerca de la
+                    clasificación y
+                    resultados de todos los juegos intercursos y al final descargar certificados de participación</p>
+                <a href="#">Conozca más </a><span style='font-size:40px;'>&#9756;</span>
+            </div>
+
+
+        </section>
+        <!-- End servicios -->
+
+        <!-- div seccion 2 -->
+        
+        <div id="news">
+            <!-- div seccion news -->
+            <div class="Seccion_news">
+                <!-- div para separar por dos noticias -->
+                <div class="subseccion">
+                    <!-- div para datos de las noticias con imagen -->
+                    <article class="noticia">
+                        <!-- div para colocar la imagen -->
+                        <div class="imagen">
+                            <img src="noticia1.png" alt="">
+                            <footer>
+                                <p>Ruta STEM Foto:mintic.gov.co</p>
+                            </footer>
+                            <hr>
+                        </div>
+                        <!-- div para el texto  -->
+                        <div class="texto_noticias">
+                            <time datetime="13/11/2020">Publicado el 13 Nov 2020 </time>
+                            <h2 class="Titulo">Mediante Ruta STEM más de 24.000 docentes desarrollarán habilidades.</h2>
+                            <p class="parrafo_noticias">
+                                Este 9 de noviembre se inició el proceso de formación de más de 24.000 docentes
+                                inscritos en el marco del proyecto Ruta STEM (Ciencia, Tecnología, Ingeniería y
+                                Matemáticas, por sus siglas en inglés), y a través del cual se espera incentivar a los
+                                niños, niñas y adolescentes a desarrollar competencias del siglo XXI.
+                            </p>
+                            <address class="link">
+                                <a target="_blank"
+                                    href="https://www.mintic.gov.co/portal/inicio/Sala-de-Prensa/Noticias/159503:Mediante-Ruta-STEM-mas-de-24-000-docentes-desarrollaran-habilidades-bajo-este-enfoque-educativo">Ver
+                                    noticia completa>></a>
+                            </address>
+                        </div>
+
+                    </article>
+                    <!-- noticia 2 -->
+                    <article class="noticia">
+                        <!-- div para colocar la imagen -->
+                        <div class="imagen">
+                            <img src="noticia2.png" alt="">
+                            <footer>
+                                <p>Presidente Ivan Duque Foto:mintic.gov.co</p>
+                            </footer>
+                            <hr>
+                        </div>
+                        <!-- div para el texto  -->
+                        <div class="texto_noticias">
+                            <time datetime="11/06/2020">Publicado el 11 Jun 2020 </time>
+                            <h2 class="Titulo">Modelo de alternancia académica tendrá acompañamiento de expertos en
+                                salud y protocolos rigurosos</h2>
+                            <p class="parrafo_noticias">
+                                El presidente Duque recalcó que el Gobierno Nacional ha venido hablando con la comunidad
+                                educativa sobre la implementación del “modelo de alternancia, donde estaría la
+                                presencialidad y estaría también el trabajo en casa, el trabajo virtual, con el
+                                distanciamiento necesario y con la cultura que se requiere de colaboración colectiva”.
+                            </p>
+                            <address class="link">
+                                <a target="_blank"
+                                    href="https://www.mineducacion.gov.co/1759/w3-article-399069.html?_noredirect=1">Ver
+                                    noticia completa>></a>
+                            </address>
+                        </div>
+
+                    </article>
+                </div>
+                <!-- div para separar por dos noticias -->
+                <div class="subseccion">
+                    <!-- div para datos de las noticias con imagen -->
+                    <!-- noticia 3 -->
+                    <article class="noticia">
+                        <!-- div para colocar la imagen -->
+                        <div class="imagen">
+                            <img src="noticia3.png" alt="">
+                            <footer>
+                                <p>Foto:Mintic.gov.co</p>
+                            </footer>
+                            <hr>
+                        </div>
+                        <!-- div para el texto  -->
+                        <div class="texto_noticias">
+                            <time datetime="06/06/2020">Publicado el 06 Jun 2020 </time>
+                            <h2 class="Titulo">Alianza internacional promoverá el pensamiento computacional en Colombia
+                            </h2>
+                            <p class="parrafo_noticias">
+                                En el mediano plazo, seguramente no habrá un tema de mayor importancia para los niños y
+                                jóvenes que el desarrollo del “pensamiento computacional”, un método de resolución de
+                                problemas basado en la computación.
+                            </p>
+                            <address class="link">
+                                <a target="_blank"
+                                    href="https://www.mintic.gov.co/portal/inicio/Sala-de-Prensa/Noticias/101061:Alianza-internacional-promovera-el-pensamiento-computacional-en-Colombia">Ver
+                                    noticia completa>></a>
+                            </address>
+                        </div>
+
+                    </article>
+                    <!-- noticia 4-->
+                    <article class="noticia">
+                        <!-- div para colocar la imagen -->
+                        <div class="imagen">
+                            <img src="noticia4.png" alt="">
+                            <footer>
+                                <p><i>Foto:mintic.gov.co</i> </p>
+                            </footer>
+                            <hr>
+                        </div>
+                        <!-- div para el texto  -->
+                        <div class="texto_noticias">
+                            <time datetime="23/11/2020">Publicado el 23 Nov 2020 </time>
+                            <h2 class="Titulo">Doce maneras como cambiará la educación después de covid-19</h2>
+                            <p class="parrafo_noticias">
+                                Si algo quedó claro en medio de la crisis sanitaria es que el sistema educativo no nos
+                                había formado para la incertidumbre. Colegios y universidades debieron adaptarse a las
+                                sorpresivas restricciones y trasladar sus sistemas pedagógicos y contenidos curriculares
+                                a una enseñanza centrada en las nuevas tecnologías y los ambientes virtuales.
+                            </p>
+                            <address class="link">
+                                <a target="_blank"
+                                    href="https://www.eltiempo.com/bogota/regreso-a-clases-asi-cambiara-la-educacion-en-bogota-y-colombia-despues-del-coronavirus-550480">Ver
+                                    noticia completa>></a>
+                            </address>
+                        </div>
+
+                    </article>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- START TEAM -->
+        <div class="team">
+            <div class="miembro">
+                <div class="foto">
+                    <img src="fotos/brandon.jpeg" alt="" class="f-miembro">
+                </div>
+                <div class="title">
+                    Brandon Motta Vega
+                    <hr>
+                    <b>
+                        Development Team
+                    </b>
+                </div>
+                <p>
+                    Técnico en Programación de Software
+                    Servicio Nacional de Aprendizaje SENA
+                </p>
+
+            </div>
+            <div class="miembro">
+                <div class="foto">
+                    <img src="fotos/luis.jpeg" alt="" class="f-miembro">
+                </div>
+                <div class="title">
+                    Luis Carlos Prada
+                    <hr>
+                    <b>
+                        Development Team
+                    </b>
+                </div>
+                <p>
+                    M.Sc. Geofisica
+                    Universidad Industrial de Santander
+                </p>
+
+            </div>
+            <div class="miembro">
+                <div class="foto">
+                    <img src="fotos/mauricio.jpeg" alt="" class="f-miembro">
+                </div>
+                <div class="title">
+                    Mauricio Sastoque
+                    <hr>
+                    <b>
+                        Product Owner
+                    </b>
+                </div>
+                <p>
+                    Licenciado en Electrónica
+                    Universidad Pedagógica Nacional
+                </p>
+
+            </div>
+            <div class="miembro">
+                <div class="foto">
+                    <img src="fotos/milena.jpeg" alt="" class="f-miembro">
+                </div>
+                <div class="title">
+                    Milena Pinilla
+                    <hr>
+                    <b>
+                        Development Team
+                    </b>
+                </div>
+                <p>
+                    Ingeniera de Sistemas
+                    Universidad Distrital Francisco Jose de caldas
+                </p>
+
+            </div>
+            <div class="miembro">
+                <div class="foto">
+                    <img src="fotos/camilo.PNG" alt="" class="f-miembro">
+                </div>
+                <div class="title">
+                    Camilo Neiza
+                    <hr>
+                    <b>
+                        Scrum Master
+                    </b>
+                </div>
+                <p>
+                    Ingeniero de Sistemas
+                    Universidad Central
+                </p>
+
+            </div>
+        </div>
+        <!-- END TEAM -->
+    </div>
+
+
+    <!-- Inicio Footer -->
+    <footer>
+        <div class="footcontainer">
+            <h4 class="foottitle">Acerca de G-ED:</h4>
+            <p>
+                Nuestra plataforma es un avanzado Sistema de Gestión Académica el cual permite reducir el tiempo de
+                procesos administrativos de rutina como transcribir calificaciones, calcular promedios generar
+                automáticamente los informes para padres y docentes y entidades
+                como el Ministerio de Educación y afines.
+            </p>
+            <p class="Masinfo">Visite nuestro repositorio de <a
+                    href="https://github.com/camiloneiza1/semana-1-5">GitHub</a> para más información.</p>
+        </div>
+        <hr class="separatorf" width="1" size="auto" color="036969">
+        <div class="footcontainer">
+            <h4 class="foottitle">Información de Contacto:</h4>
+            <p>
+                <li class="listfooter">Camilo Neiza Aldana (Scrum Master): <a
+                        href="mailto:camiloneiza1@gmail.com">Enviar Correo</a>.</li>
+                <li class="listfooter">Mauricio Sastoque Sánchez (Product Owner): <a
+                        href="mailto:msastoque@chiloe.edu.co">Enviar Correo</a>.</li>
+                <li class="listfooter">Luis Carlos Prada Socha (Development Team): <a
+                        href="mailto:luiscarlosps93@gmail.com">Enviar Correo</a>.</li>
+                <li class="listfooter">Milena Pinilla Delgado (Development Team): <a
+                        href="mailto:kamy2086@gmail.com">Enviar Correo</a>.</li>
+                <li class="listfooter">Brandon Motta Vega (Development Team): <a
+                        href="mailto:branmichellmv@gmail.com">Enviar Correo</a>.</li>
+            </p>
+        </div>
+    </footer>
+    <!-- Fin Footer -->
 </body>
 
 </html>
