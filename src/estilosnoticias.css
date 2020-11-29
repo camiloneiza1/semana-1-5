@@ -1,7 +1,5 @@
 #news{
-    background-color:#03989E ;
-    
-  
+    background-color:#03989E ;  
 }
 
 .subseccion{
@@ -49,11 +47,11 @@ h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align:right;
 }
-img[src]{
+
+#news img[src]{
     border:3px solid #03989E;
     width: 500px;
-    
-    }
+}
 
 time[datetime]{
     font-size: 15px;
