@@ -4,10 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Mi primera pagina web</title>
 </head>
 
+
 <body>
+
+    <!-- Inicio del Navbar -->
+    <div class="container">
+        <div class="header">
+            <div class="container-menu">
+                <div class="container-logo">
+                    <h1 class="site-title">Workshop 1</h1>
+                </div>
+                <nav class="nav-list">
+                    <ul class="main-menu">
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">Inicio</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">Servicios</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">Noticias</a>
+                        </li>
+                        <li class="main-menu__item">
+                            <a href="#" class="main-menu__link">Equipo</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container-imagen">
+                <h2 class="image-text"></h2>
+            </div>
+        </div>
+
+        <!-- servicios -->
+        <section id="services" class="servicios">
+
+            <div class="servicios__contenedor">
+                <img src="./seccion1.png" alt="Sección 1" class="servicios__imagen">
+                <h2 class="servicios-text">Gestión Educativa</h2>
+                <p class="servicios-text">En la plataforma se registra el flujo de información de evaluación y
+                    administración académica en una Institución Educativa, teniendo en cuenta el tratamiento de logros,
+                    fortalezas, dificultades y recomendaciones de acuerdo con los requerimientos del Ministerio de
+                    Educación
+                    Nacional.</p>
+                <a href="#">Conozca más </a><span style='font-size:40px;'>&#9756;</span>
+            </div>
+
+            <div class="servicios__contenedor">
+                <img src="./seccion2.png" alt="Sección 2" class="servicios__imagen">
+                <h2 class="servicios-text">Elección de Personero y Contralor Estudiantil</h2>
+                <p class="servicios-text">Permite la autenticación por correo y registrar el voto. Al final,
+                    inmediatamente
+                    conoceran los elegidos por los estudiantes</p>
+                <a href="#">Conozca más </a><span style='font-size:40px;'>&#9756;</span>
+            </div>
+
+            <div class="servicios__contenedor">
+                <img src="./seccion3.png" alt="Sección 3" class="servicios__imagen">
+                <h2 class="servicios-text">Gestión Deportiva</h2>
+                <p class="servicios-text">En la plataforma Deportiva puede permanecer informado acerca de la
+                    clasificación y
+                    resultados de todos los juegos intercursos y al final descargar certificados de participación</p>
+                <a href="#">Conozca más </a><span style='font-size:40px;'>&#9756;</span>
+            </div>
+
+
+        </section>
+        <!-- End servicios -->
+
     <!-- div seccion 2 -->
 <link rel="stylesheet" href="estilosnoticias.css">
 <div id="news">
@@ -116,6 +184,129 @@
 </div>  
 
 
+        <!-- START TEAM -->
+        <div class="team">
+            <div class="miembro">
+                <div class="foto">
+                    <img src="fotos/brandon.jpeg" alt="" class="f-miembro">
+                </div>
+                <div class="title">
+                    Brandon Motta Vega
+                    <hr>
+                    <b>
+                        Development Team
+                    </b>
+                </div>
+                <p>
+                    Técnico en Programación de Software
+                    Servicio Nacional de Aprendizaje SENA
+                </p>
+
+            </div>
+            <div class="miembro">
+                <div class="foto">
+                    <img src="fotos/luis.jpeg" alt="" class="f-miembro">
+                </div>
+                <div class="title">
+                    Luis Carlos Prada
+                    <hr>
+                    <b>
+                        Development Team
+                    </b>
+                </div>
+                <p>
+                    M.Sc. Geofisica
+                    Universidad Industrial de Santander
+                </p>
+
+            </div>
+            <div class="miembro">
+                <div class="foto">
+                    <img src="fotos/mauricio.jpeg" alt="" class="f-miembro">
+                </div>
+                <div class="title">
+                    Mauricio Sastoque
+                    <hr>
+                    <b>
+                        Product Owner
+                    </b>
+                </div>
+                <p>
+                    Licenciado en Electrónica
+                    Universidad Pedagógica Nacional
+                </p>
+
+            </div>
+            <div class="miembro">
+                <div class="foto">
+                    <img src="fotos/milena.jpeg" alt="" class="f-miembro">
+                </div>
+                <div class="title">
+                    Milena Pinilla
+                    <hr>
+                    <b>
+                        Development Team
+                    </b>
+                </div>
+                <p>
+                    Ingeniera de Sistemas
+                    Universidad Distrital Francisco Jose de caldas
+                </p>
+
+            </div>
+            <div class="miembro">
+                <div class="foto">
+                    <img src="fotos/camilo.PNG" alt="" class="f-miembro">
+                </div>
+                <div class="title">
+                    Camilo Neiza
+                    <hr>
+                    <b>
+                        Scrum Master
+                    </b>
+                </div>
+                <p>
+                    Ingeniero de Sistemas
+                    Universidad Central
+                </p>
+
+            </div>
+        </div>
+        <!-- END TEAM -->
+    </div>
+
+
+    <!-- Inicio Footer -->
+    <footer>
+        <div class="footcontainer">
+            <h4 class="foottitle">Acerca de G-ED:</h4>
+            <p>
+                Nuestra plataforma es un avanzado Sistema de Gestión Académica el cual permite reducir el tiempo de
+                procesos administrativos de rutina como transcribir calificaciones, calcular promedios generar
+                automáticamente los informes para padres y docentes y entidades
+                como el Ministerio de Educación y afines.
+            </p>
+            <p class="Masinfo">Visite nuestro repositorio de <a
+                    href="https://github.com/camiloneiza1/semana-1-5">GitHub</a> para más información.</p>
+        </div>
+        <hr class="separatorf" width="1" size="auto" color="036969">
+        <div class="footcontainer">
+            <h4 class="foottitle">Información de Contacto:</h4>
+            <p>
+                <li class="listfooter">Camilo Neiza Aldana (Scrum Master): <a
+                        href="mailto:camiloneiza1@gmail.com">Enviar Correo</a>.</li>
+                <li class="listfooter">Mauricio Sastoque Sánchez (Product Owner): <a
+                        href="mailto:msastoque@chiloe.edu.co">Enviar Correo</a>.</li>
+                <li class="listfooter">Luis Carlos Prada Socha (Development Team): <a
+                        href="mailto:luiscarlosps93@gmail.com">Enviar Correo</a>.</li>
+                <li class="listfooter">Milena Pinilla Delgado (Development Team): <a
+                        href="mailto:kamy2086@gmail.com">Enviar Correo</a>.</li>
+                <li class="listfooter">Brandon Motta Vega (Development Team): <a
+                        href="mailto:branmichellmv@gmail.com">Enviar Correo</a>.</li>
+            </p>
+        </div>
+    </footer>
+    <!-- Fin Footer -->
 </body>
 
 </html>
